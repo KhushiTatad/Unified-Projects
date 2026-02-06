@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Deep Learn | Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="logo">Deep<span>Learn</span></h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#careers">Careers</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero-bg" id="home">
+      <div class="hero-overlay"></div>
+      <h2 class="glow-text">Blog That Help You Improve</h2>
+      <p>Study • Skills • Internships • Growth 🚀</p>
+    </section>
+
+    <section class="section" id="careers">
+      <h2 class="section-title">Career Paths</h2>
+
+      <div class="blog-grid">
+        <div class="blog-card" onclick="openBlog('ai')">
+          <img src="images/AIml.jpg" />
+          <h3>AI / ML Engineer</h3>
+          <p>Models, Python, projects & internships.</p>
+        </div>
+
+        <div class="blog-card" onclick="openBlog('data')">
+          <img src="images/Data.jpg" />
+          <h3>Data Analyst</h3>
+          <p>SQL, dashboards & insights.</p>
+        </div>
+
+        <div class="blog-card" onclick="openBlog('fullstack')">
+          <img src="images/Full Stack.png" />
+          <h3>Full Stack Developer</h3>
+          <p>Frontend + backend mastery.</p>
+        </div>
+
+        <div class="blog-card" onclick="openBlog('python')">
+          <img src="images/python.jpg" />
+          <h3>Python Developer</h3>
+          <p>Automation & backend systems.</p>
+        </div>
+
+        <div class="blog-card" onclick="openBlog('devops')">
+          <img src="images/Devops.jpg" />
+          <h3>DevOps Engineer</h3>
+          <p>Cloud & CI/CD pipelines.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <h2>Let’s Connect</h2>
+      <p>Have a question or idea? Do Let Us Know 🚀</p>
+
+      <form class="contact-form">
+        <div class="field">
+          <input type="text" required />
+          <label>Your Name</label>
+        </div>
+
+        <div class="field">
+          <input type="email" required />
+          <label>Your Email</label>
+        </div>
+
+        <div class="field">
+          <textarea required></textarea>
+          <label>Your Message</label>
+        </div>
+
+        <button type="submit">
+          <span>Send Message</span>
+          <div class="plane">✈️</div>
+        </button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2026 Deep Learn 💻 Khushi| Unified Mentor</p>
+    </footer>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-blur"></div>
+
+    <!-- Particles Canvas -->
+    <canvas id="particles"></canvas>
+
+    <script src="script.js"></script>
+  </body>
+</html>
