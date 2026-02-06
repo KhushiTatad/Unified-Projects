@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khushi | Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cursor follower"></div>
+    <div class="cursor"></div>
+
+    <canvas id="particles"></canvas>
+
+    <nav id="navbar">
+      <div class="nav-container">
+        <div class="scanner-border">
+          <div class="logo">
+            <span class="logo-gta">KHUSHI</span>
+            <div class="scanner-line"></div>
+          </div>
+
+          <div class="nav-links" id="navLinks">
+            <a href="#arrival" class="nav-link active">
+              <span>01</span> HOME
+            </a>
+            <a href="#education" class="nav-link">
+              <span>02</span> EDUCATION
+            </a>
+            <a href="#skills" class="nav-link"> <span>03</span> SKILLS </a>
+            <a href="#projects" class="nav-link"> <span>04</span> PROJECTS </a>
+            <a href="#achievements" class="nav-link">
+              <span>05</span> ACHIEVEMENTS
+            </a>
+            <a href="#contact" class="nav-link"> <span>06</span> CONTACT </a>
+          </div>
+
+          <div class="nav-actions">
+            <a href="mailto:khushiben8@gmail.com" class="hire-btn">
+              <span>★</span> Click Me
+            </a>
+            <div class="hamburger" id="hamburger">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="arrival" class="chapter hero parallax">
+      <div
+        class="chapter-bg"
+        style="
+          background-image: linear-gradient(135deg, #1e2020, #2d2f2c),
+            url('Portfolio/profile.jpg');
+        "
+      ></div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>CHAPTER 1</h1>
+          <h2>Introduction</h2>
+          <p>
+            This Is Khushi Tatad, <br />
+            First Year Diploma CSE Student Trying To Survive In A Ocen Of
+            Engineers
+          </p>
+          <div class="stats">
+            <div class="stat"><span>Role</span><strong>Web Dev</strong></div>
+            <div class="stat">
+              <span>Focus</span><strong> On Becming The Best</strong>
+            </div>
+            <div class="stat">
+              <span>Goal</span><strong>AI-FUllStack Engineer</strong>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="Portfolio/profile.jpg">
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="chapter parallax">
+      <div
+        class="chapter-bg"
+        style="background-image: url('project.jpg')"
+      ></div>
+      <div class="chapter-content">
+        <h2>CHAPTER 2: Education</h2>
+        <div class="card">
+          <h3>Education Journey</h3>
+          <p>
+            Diploma in Engineering As a Aspiring Learner for FullStack
+            Development Through Hands-on Projects And Internship At Unified
+            Mentor.
+          </p>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="year">2025</div>
+              <div class="desc">
+                <strong>Diploma Engineering</strong>
+                <p>
+                  Right Now Front-end focus: JS, HTML, CSS, React And
+                  FrameWorks| While Learning Programming Language
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="year">2026</div>
+              <div class="desc">
+                <strong> Projects</strong>
+                <p>
+                  Built Sevral Projects As An intern | Looking Forward To Built
+                  Some Ai Integreted Project
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="chapter">
+      <div
+        class="chapter-bg"
+        style="
+          background-image: linear-gradient(135deg, #1e2020, #697569),
+            url('https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+        "
+      ></div>
+      <div class="chapter-content">
+        <h2>CHAPTER 3: The Devlopment</h2>
+        <div class="card">
+          <h3>Core Skills</h3>
+          <div class="skills-grid">
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3 / Animations / Media Queries</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Responsive UI/UX</div>
+            <div class="skill">Node.js Basics</div>
+            <div class="skill">Backend Basics</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="chapter parallax">
+      <div
+        class="chapter-bg"
+        style="background-image: url('Portfolio/project.jpg')"
+      ></div>
+      <div class="chapter-content">
+        <h2>CHAPTER 4: Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <img src="Portfolio/project.jpg" alt="Project 1" />
+            <div class="project-card-content">
+              <h3>EduConnect Booking</h3>
+              <p>
+                Student-teacher platform with dashboard, localStorage auth, and
+                responsive design.
+              </p>
+              <a href="https://github.com/yourusername/educonnect" class="btn"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="Portfolio/project.jpg" alt="Project 2" />
+            <div class="project-card-content">
+              <h3>Todo Mastery App</h3>
+              <p>
+                Advanced task manager with CRUD, animations, and dark mode
+                toggle.
+              </p>
+              <a href="#" class="btn">View Code</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="Portfolio/project.jpg" alt="Project 3" />
+            <div class="project-card-content">
+              <h3>Medical Management</h3>
+              <p>
+                Full-stack web app for clinic ops with Firebase backend
+                integration.
+              </p>
+              <a href="#" class="btn">View Mission</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="chapter">
+      <div
+        class="chapter-bg"
+        style="
+          background-image: linear-gradient(135deg, #1e2020, #ecd0cc20),
+            url('Portfolio/education.jpg');
+        "
+      ></div>
+      <div class="chapter-content">
+        <h2>CHAPTER 5: Achivment</h2>
+        <div class="card">
+          <h3>Achievements Unlocked</h3>
+          <ul class="achievements">
+            <li>🏆 Unified Mentor Front-End Internship</li>
+            <li>
+              🏆 Built 15+ Projects Mini Projects And Large Projects For
+              Practise And Internships
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="chapter parallax">
+      <div class="chapter-bg" style="background-image: url('')"></div>
+      <div class="chapter-content">
+        <h2>CHAPTER 6: Contact Details</h2>
+        <div class="card">
+          <h3>Let's Collaborate</h3>
+          <p><strong>📧 Email:</strong> kushiben8@gmail.com</p>
+          <p><strong>💼 LinkedIn:</strong></p>
+
+          <a href="mail to:kushiben8@gmail.com" class="btn">Send Message</a>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
